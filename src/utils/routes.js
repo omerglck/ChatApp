@@ -1,3 +1,9 @@
 export const ONBOARDING = 'ONBOARDING';
 export const VERIFICATIONPHONENUMBER = 'VERIFICATIONPHONENUMBER';
-
+export const SETUPNAME = 'SETUPNAME';
+export const SETUPPHOTO = 'SETUPPHOTO';
+export const TABMENU = 'TABMENU';
+export const MESSAGES = 'Messages';
+export const CONTACTS = 'Contacts';
+export const PROFILE = 'Profile';
+export const CALLS = 'Calls';

@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const VerificationCode = () => {
+const Calls = () => {
   return (
     <View>
-      <Text>VerificationCode</Text>
+      <Text>Calls</Text>
     </View>
   )
 }
 
-export default VerificationCode
+export default Calls

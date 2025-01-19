@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     backgroundColor: AppColors.Brand.White,
     padding: 30,
   },
-  header: {flex: 1, justifyContent: 'center', alignItems: 'center'},
+  header: {flex: 1, justifyContent: 'center', alignItems: 'center',marginTop:40},
   body: {flex: 4, justifyContent: 'center', alignItems: 'center', gap: 20},
 });
 export default Onboarding;

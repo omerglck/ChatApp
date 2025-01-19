@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Icon = () => {
+const Profile = () => {
   return (
     <View>
-      <Text>Icon</Text>
+      <Text>Profile</Text>
     </View>
   )
 }
 
-export default Icon
+export default Profile

@@ -7,10 +7,7 @@ const Input = props => {
     <View style={styles.container}>
       <View
         style={{
-          position: 'absolute',
-          resizeMode: 'contain',
-          zIndex: 99,
-          left: 10,
+         
         }}>
        {Icon && <Icon />}
       </View>
@@ -22,16 +19,19 @@ const Input = props => {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    alignItems: 'center',
+    borderRadius:100,
+    borderWidth:1,
+    alignItems:"center",
+    justifyContent:"center",
+    paddingHorizontal:7,
+    borderColor: AppColors.Neutral.Gray,
   },
   input: {
     backgroundColor: AppColors.Neutral.White,
     padding: 15,
     borderRadius: 100,
-    borderWidth: 1,
-    borderColor: AppColors.Brand.Black,
     flex: 1,
-    paddingLeft: 40,
+    paddingLeft: 20,
   },
 });
 
